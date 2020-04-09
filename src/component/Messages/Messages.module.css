@@ -10,6 +10,8 @@
     color: #ffffff;
     text-align: left;
     padding: 10px 10px 0 10px;
+    hyphens: auto;
+    word-break: break-all;
 }
 .date{
     color: #6f7587;
@@ -17,7 +19,7 @@
     padding: 0 10px 5px 0;
     margin-left: 20px;
 }
-.tail {
+.tail{
     height: 0;
     width: 0;
 }
@@ -31,10 +33,9 @@
 }
 .tail:after {
     content: "";
-    border: 20px solid #ffffff;
+    border: 20px solid #6f7587;
     border-radius: 50%;
     position: absolute;
     bottom: -3px;
     left: -40px;
 }
-
